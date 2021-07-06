@@ -6,7 +6,7 @@ body{
 .flexible-container{
     display: flex;
     margin-top: 100px;
-    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 h1{
@@ -56,15 +56,24 @@ a{
     padding-right: 300px;
     padding-left: 300px;
 }
-.all-recipie{
-    width: 500px;
-    height: 700px;
-    margin-right: 2%;
-    margin-left: 2%;
+.box img{
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    padding-top: 30px;
     padding-left: 10px;
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 50px;
 }
+.box{
+    width: 800px;
+    height: 800px;
+    margin-right: 4%;
+    margin-left: 4%;
+    padding-left: 30px;
+    box-shadow: 20px 20px 30px gray;
+    border-radius: 50px;
+
+}
+
 p{
     font-size: 22px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -73,30 +82,10 @@ p{
     margin-top: 450px;
 }
 
-#chicken{
-    background-image: url(images/food/Project\ Cover.jpg);
-    background-position: top;
-    background-size: 100% 60%;  
-    background-repeat: no-repeat;
-}
-#flatbread{
-    background-image: url(images/food/Project\ Cover1.jpg);
-     background-position: top;
-    background-size: 100% 60%;  
-    background-repeat: no-repeat;
-}
-#burger{
-    background-image: url(images/food/Project\ Cover4.png);
-    background-position: top;
-    background-size: 100% 60%;  
-    background-repeat: no-repeat;
-}
-
 .influence{
     border-radius: 20px;
     box-shadow: 20px 20px 40px grey;
-    box-sizing: 2px;
-    margin: 5% 5% 5% 5%;
+    margin: 3% 3% 3% 3%;
 }
 .youtube{
 text-align: center;
