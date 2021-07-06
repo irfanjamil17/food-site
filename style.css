@@ -3,7 +3,7 @@ body{
     font-family: 'Teko', sans-serif;
     margin: 0px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-top: 100px;
     margin-top: 100px;
@@ -49,4 +49,80 @@ h3{
 a{
     font-size: 20px;
 }
+.my-recipie{
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(61, 60, 60);
+    padding-right: 300px;
+    padding-left: 300px;
+}
+.all-recipie{
+    width: 500px;
+    height: 700px;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 50px;
+}
+p{
+    font-size: 22px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.all-recipie h2{
+    margin-top: 450px;
+}
+
+#chicken{
+    background-image: url(images/food/Project\ Cover.jpg);
+    background-position: top;
+    background-size: 100% 60%;  
+    background-repeat: no-repeat;
+}
+#flatbread{
+    background-image: url(images/food/Project\ Cover1.jpg);
+     background-position: top;
+    background-size: 100% 60%;  
+    background-repeat: no-repeat;
+}
+#burger{
+    background-image: url(images/food/Project\ Cover4.png);
+    background-position: top;
+    background-size: 100% 60%;  
+    background-repeat: no-repeat;
+}
+
+.influence{
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px grey;
+    box-sizing: 2px;
+    margin: 5% 5% 5% 5%;
+}
+.youtube{
+text-align: center;
+padding: 0 10%;
+}
+.insta{
+    text-align: center;
+    padding: 0 10%;
+}
+.dribble{
+    text-align: center;
+    padding: 0 10%;
+}
+
+footer{
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(2, 65, 28);
+    color: white; 
+    text-align: center;
+    padding: 5%;
+}
+.last-sec h2{
+    font-size: 50px;
+}
+.green-color{
+    color: rgb(169, 187, 12);
+}
+
 
